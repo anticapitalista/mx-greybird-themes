@@ -13,7 +13,7 @@ gtk-color-scheme	= "fm_color:#F7F7F7" # Color used in Nautilus and Thunar.
 gtk-color-scheme	= "bg_color_dark:#686868\ntext_color_dark:#FFF"
 
 gtk-icon-sizes          = "panel-applications-menu=24,24:panel-menu=24,24:panel=16,16:gtk-button=16,16"
-gtk-button-images	= 0					# Disables icons for buttons with text
+gtk-button-images	= 1					# Disables icons for buttons with text
 gtk-toolbar-style	= 0					# Disables text in toolbar
 gtk-auto-mnemonics	= 1					# Disables ugly lines under menu items
 
@@ -81,8 +81,8 @@ style "default"
 	GtkWidget		::focus-line-width			= 1
 	GtkWidget		::focus-padding				= 0
 	
-	GtkWindow		::resize-grip-height			= 16
-        GtkWindow		::resize-grip-width			= 16
+	GtkWindow		::resize-grip-height			= 13
+        GtkWindow		::resize-grip-width			= 13
 
 	xthickness = 1
 	ythickness = 1
@@ -299,7 +299,7 @@ style "menu"
 	text[PRELIGHT]    = @base_color
 	text[SELECTED]    = @base_color
 	text[ACTIVE]      = @fg_color
-	text[INSENSITIVE] = @text_color
+	text[INSENSITIVE] = mix (0.4, @fg_color, @bg_color)
 	
 	engine "murrine" 
 	{
@@ -597,6 +597,7 @@ style "xfwm-tabwin"
         Xfwm4TabwinWidget::border-alpha = 0.9
 	Xfwm4TabwinWidget::icon-size = 64
 	Xfwm4TabwinWidget::listview-icon-size = 16
+        Xfwm4TabwinWidget::preview-size = 512
         Xfwm4TabwinWidget::alpha = 0.8
         Xfwm4TabwinWidget::border-radius = 10
 
@@ -855,4 +856,3 @@ include "apps/claws-mail.rc"
 include "apps/gmusicbrowser.rc"
 include "apps/terminal.rc"
 include "apps/thunar.rc"
-include "apps/whisker.rc"
