@@ -1,3 +1,9 @@
+mx-greybird-themes (16.10mx16) mx; urgency=low
+
+  * added modified greybird theme for mx16 default light theme
+
+ -- dolphinoracle <dolphinoracle@gmail.com>  Thu, 20 Oct 2016 11:36:04 -0400
+
 mx-greybird-themes (1.1mx150+1) mx; urgency=low
 
   * Initial release

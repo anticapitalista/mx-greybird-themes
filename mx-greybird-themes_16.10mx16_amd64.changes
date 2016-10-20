@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 20 Oct 2016 11:36:04 -0400
+Source: mx-greybird-themes
+Binary: mx-greybird-themes
+Architecture: source all
+Version: 16.10mx16
+Distribution: mx
+Urgency: low
+Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+Changed-By: dolphinoracle <dolphinoracle@gmail.com>
+Description:
+ mx-greybird-themes - Greybird themes for MX Linux
+Changes:
+ mx-greybird-themes (16.10mx16) mx; urgency=low
+ .
+   * added modified greybird theme for mx16 default light theme
+Checksums-Sha1:
+ bba8b00c50048571fde12917d975fd15a2874608 600 mx-greybird-themes_16.10mx16.dsc
+ 1b94c3f09d1e957dec0e2d87aca4ee86375a263c 95940 mx-greybird-themes_16.10mx16.tar.xz
+ 16a0c092151daf3965cc568c6f06cbac4604e93d 93826 mx-greybird-themes_16.10mx16_all.deb
+Checksums-Sha256:
+ 4ac8345902f876928df438184327c7f73ccfd19201c403e799edfb5b1bf2b5fc 600 mx-greybird-themes_16.10mx16.dsc
+ a470bb632f1d609d3f0ba70db98b6bddf32bc4ca3056f06036f4d466cbe44fec 95940 mx-greybird-themes_16.10mx16.tar.xz
+ 0d7a1c2877e09a712a6ed8453c0625910e781273ad3f77a5acb39153b84da834 93826 mx-greybird-themes_16.10mx16_all.deb
+Files:
+ 25b55dc127ab5c64e935f4728448941c 600 unknown extra mx-greybird-themes_16.10mx16.dsc
+ b62acb36488c1ffbb94089a6b019ad15 95940 unknown extra mx-greybird-themes_16.10mx16.tar.xz
+ d74041bcb8f4e61df71565fa73756871 93826 unknown extra mx-greybird-themes_16.10mx16_all.deb
